@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="src/output.css" />
 </head>
 <body>
-  <header class="p-4 dark:bg-gray-100 dark:text-gray-800">
+  <header class="p-4 dark:bg-white dark:text-gray-800">
     <div class="container flex justify-between items-center h-16 mx-auto">
         <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" class="flex items-center p-2">
             <img src="img/saytaz.svg" alt="logo">
@@ -37,12 +37,61 @@
 <!-- main -->
 <main>
   
-<section class="head-text flex flex-col items-center justify-center w-full text-center px-2 h-96 font-sans">
+<section class="head-text flex flex-col items-center justify-center w-full text-center px-2 h-96 font-sans gap-3">
   <h1 class="text-5xl text-gray-800 font-medium mb-10">Biznesinizi bizimlə rəqəmsal dünyada <br /><br /> <span class="relative text-blue-600 inline-block sm:mx-4 md:mx-6 lg:mx-[30px] whitespace-nowrap">daha asan<i class="absolute sm:top-[-20px] sm:left-[-15px] md:left-[-18px] md:top-[-25px] lg:top-[-20px]"><img alt="Home-image" loading="lazy" width="278" height="120" decoding="async" data-nimg="1" class="max-w-[110%] max-h-[110%]" style="color:transparent" src="img/easier.svg"></i></span> yoldan irəliyə apar!</h1>
   <p class="text-2xl text-gray-500">Mütəxəssislərdən ibarət komandamız sizə müştəri dəstəyi və texniki<br /> yardım göstərmək üçün 24/7 hazırdır.</p>
-  <button type="button" class="px-8 py-3 font-semibold border rounded dark:border-purple-700 border-2 dark:text-blue-600">Sayt sifariş et</button>
+  <button type="button" class="px-8 py-3 gap-3 font-semibold border rounded dark:border-purple-700 border-2 dark:text-blue-600">Sayt sifariş et</button>
 </section>
 
+
+<div class="container mx-auto p-4 bg-white w-full max-w-4xl flex flex-wrap gap-4">
+    <div class="flex flex-wrap gap-5">
+        <div class="text-center p-3 rounded-lg shadow-lg">
+            <p class="text-gray-600">Tamamlandı</p>
+            <div class="relative w-20 h-22 mx-auto mt-2">
+                <div class="absolute inset-0 flex items-center justify-center text-lg font-semibold text-green-600">100%</div>
+                <svg class="w-full h-full" viewBox="0 0 36 36">
+                    <circle class="text-gray-200" stroke-width="3" fill="none" cx="18" cy="18" r="16"></circle>
+                    <circle class="text-green-500" stroke-width="3" fill="none" cx="18" cy="18" r="16" stroke-dasharray="100 100"></circle>
+                </svg>
+            </div>
+            <p class="font-bold text-lg mt-2">Sabina G.</p>
+            <p class="text-gray-500">Designer</p>
+        </div>
+        <div class="text-center p-3 rounded-lg shadow-lg">
+            <p class="text-gray-600">İcradadır</p>
+            <div class="relative w-20 h-16 mx-auto mt-2">
+                <div class="absolute inset-0 flex items-center justify-center text-lg font-semibold text-pink-600">90%</div>
+                <svg class="w-full h-full" viewBox="0 0 36 36">
+                    <circle class="text-gray-200" stroke-width="3" fill="none" cx="18" cy="18" r="16"></circle>
+                    <circle class="text-pink-500" stroke-width="3" fill="none" cx="18" cy="18" r="16" stroke-dasharray="90 100"></circle>
+                </svg>
+            </div>
+            <p class="font-bold text-lg mt-2">Fuad M.</p>
+            <p class="text-gray-500">Frontend Developer</p>
+        </div>
+        <div class="text-center p-3 rounded-lg shadow-lg">
+            <p class="text-gray-600">İcradadır</p>
+            <div class="relative w-20 h-16 mx-auto mt-2">
+                <div class="absolute inset-0 flex items-center justify-center text-lg font-semibold text-pink-600">65%</div>
+                <svg class="w-full h-full" viewBox="0 0 36 36">
+                    <circle class="text-gray-200" stroke-width="3" fill="none" cx="18" cy="18" r="16"></circle>
+                    <circle class="text-pink-500" stroke-width="3" fill="none" cx="18" cy="18" r="16" stroke-dasharray="65 100"></circle>
+                </svg>
+            </div>
+            <p class="font-bold text-lg mt-2">Ahmad R.</p>
+            <p class="text-gray-500">Backend Developer</p>
+        </div>
+    </div>
+    
+    <div class="m-6 text-center ">
+        <h2 class="text-2xl font-bold">Vebsayt sifarişinizi izləyin</h2>
+        <input type="text" placeholder="Sifariş kodu" class="border p-2 rounded-lg w-full max-w-sm mt-2">
+        <p class="text-red-500 text-sm mt-1">Sifariş kodu səhvdir</p>
+        <button class="bg-purple-500 text-white px-6 py-2 rounded-lg mt-3">İzlə</button>
+        <p class="text-gray-400 text-sm mt-2">Sayt.az ilə sifarişlərinizə hər zaman nəzarət edin</p>
+    </div>
+</div>
 
 
 
