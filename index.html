@@ -332,8 +332,7 @@
                                     Sifariş et
                                 </button>
                         </div>
-                        <div
-                        class="w-full max-w-sm p-4 bg-white border-2 border-violet-500 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700 hover:border-violet-500 hover:shadow-lg ">
+                        <div class="w-full max-w-sm p-4 bg-white border-2 border-violet-500 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700 hover:border-violet-500 hover:shadow-lg ">
                         <div class="flex items-baseline text-gray-900 dark:text-white">
                                 <span class="text-3xl font-semibold"><i class="fa-solid fa-manat-sign"></i>10</span>
                                 <span class="ms-1 text-xl font-normal text-dark-500 dark:text-dark-400">/ay</span>
@@ -454,8 +453,7 @@
                                     Sifariş et
                                 </button>
                         </div>
-                        <div
-                        class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700 hover:border-violet-500 hover:shadow-lg">
+                        <div class="w-full max-w-sm p-4 bg-white border border-gray-200 rounded-lg shadow-sm sm:p-8 dark:bg-gray-800 dark:border-gray-700 hover:border-violet-500 hover:shadow-lg">
                         <div class="flex items-baseline text-gray-900 dark:text-white">
                                 <span class="text-3xl font-semibold"><i class="fa-solid fa-manat-sign"></i>20</span>
                                 <span class="ms-1 text-xl font-normal text-dark-500 dark:text-dark-400">/ay</span>
@@ -939,6 +937,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
 <div class="container mx-auto w-[1300px] items-center m-10">
     <section class="startUp text-purple-950 flex flex-col md:flex-row items-center justify-between lsm:px-12 px-4 md:mb-16 lsm:mb-8 mb-4">
     <div class="lg:w-1/2 flex flex-col max-w-[1296px] gap-8">
@@ -1110,12 +1109,28 @@
 <div class="container mx-auto flex justify-center items-center p-20">
 <button type="button" class="px-8 py-3 w-56 font-semibold rounded dark:bg-purple-950 dark:text-gray-100">Bütün Bloglar</button>
 </div>
-<section>
-    <h2>Videolarımızı Kəşf Edin</h2>
-    <p>Kəşf Edin, Öyrənin və Uğur Qazanın</p>
-    <p>Son nailiyyətlərimizi, media çıxışlarımızı və ətraflı təlimlərimizi izləmək üçün video kolleksiyamıza göz atın. İdeal veb saytınızı qurmaqda sizə necə kömək edə biləcəyimizi öyrənin və uğur hekayəmizdən ilham alın.</p>
-</section>
+<section class="container mx-auto flex flex-col justify-center text-center items-center">
+    <div class="w-[700px] flex flex-col gap-3">
+    <h2 class="text-purple-950 text-4xl font-medium">Videolarımızı Kəşf Edin</h2>
+    <p class="text-purple-950 font-medium">Kəşf Edin, Öyrənin və Uğur Qazanın</p>
+    <p class="text-purple-950 font-medium">Son nailiyyətlərimizi, media çıxışlarımızı və ətraflı təlimlərimizi izləmək üçün video kolleksiyamıza göz atın. İdeal veb saytınızı qurmaqda sizə necə kömək edə biləcəyimizi öyrənin və uğur hekayəmizdən ilham alın.</p>
+    </div>
+    <div class="relative w-[90%] max-w-4xl overflow-hidden pt-10">
+        <!-- Slider Content -->
+        <div id="sliderContent" class="flex transition-transform duration-500 ease-in-out w-[200%]">
+            <div class="w-1/2 flex-shrink-0">
+                <iframe class="w-full h-64 md:h-80" src="https://www.youtube.com/embed/lnpAcQS6Xz4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="w-1/2 flex-shrink-0">
+                <iframe class="w-full h-64 md:h-80" src="https://www.youtube.com/embed/Cq3V130Qikc" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
 
+        <!-- Navigation Buttons -->
+        <button onclick="prev()" class="absolute top-1/2 left-2 transform -translate-y-1/2 p-3 bg-purple-500 text-white rounded-full shadow-md">&#10094;</button>
+        <button onclick="next()" class="absolute top-1/2 right-2 transform -translate-y-1/2 p-3 bg-purple-500 text-white rounded-full shadow-md">&#10095;</button>
+    </div>
+</section>
 
 
 
@@ -1126,7 +1141,7 @@
     <script src="hostinq.js"></script>
     <script src="script.js"></script>
     <script src="slider.js"></script>
-
+    <script src="link.js"></script>
 
 </body>
 
